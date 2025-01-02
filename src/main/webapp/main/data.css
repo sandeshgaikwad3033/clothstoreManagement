@@ -1,0 +1,31 @@
+
+table {
+    
+    z-index: 2;
+    left: 100%;
+    top: 100%;   
+    
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32,32,32,3);
+    
+    text-align: center;
+}
+
+th,td {
+    padding: 12px 15px;
+}
+
+
+td {
+    font-family: 'Open Sans' ,sans-serif;
+}
+
+tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
